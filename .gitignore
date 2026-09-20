@@ -18,4 +18,6 @@ backend/*.db-journal
 *.log
 frontend/tsconfig.tsbuildinfo
 .codex-run/
+.codex-temp/
+tmp-*.png
 .DS_Store
