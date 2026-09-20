@@ -1,0 +1,93 @@
+<svg width="1280" height="1280" viewBox="0 0 1280 1280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="iconBg" x1="336" y1="148" x2="944" y2="756" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#132A5F"/>
+      <stop offset="1" stop-color="#08173A"/>
+    </linearGradient>
+    <linearGradient id="iconAccent" x1="430" y1="246" x2="852" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7FF7E0"/>
+      <stop offset="1" stop-color="#27DEC2"/>
+    </linearGradient>
+    <linearGradient id="textFill" x1="183" y1="0" x2="1088" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FBFF"/>
+      <stop offset="1" stop-color="#E5F4FF"/>
+    </linearGradient>
+    <linearGradient id="ampFill" x1="591" y1="792" x2="704" y2="1010" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9BFFF0"/>
+      <stop offset="1" stop-color="#26DFC2"/>
+    </linearGradient>
+    <linearGradient id="brushStroke" x1="210" y1="0" x2="1070" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7DA2FF" stop-opacity="0.18"/>
+      <stop offset="0.5" stop-color="#D9ECFF" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#7DA2FF" stop-opacity="0.18"/>
+    </linearGradient>
+    <filter id="iconShadow" x="245" y="122" width="790" height="794" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="22"/>
+      <feGaussianBlur stdDeviation="32"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0156863 0 0 0 0 0.0862745 0 0 0 0 0.239216 0 0 0 0.42 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#iconShadow)">
+    <rect x="320" y="186" width="640" height="640" rx="144" fill="url(#iconBg)"/>
+    <path d="M737.594 253.208C655.019 240.843 572.624 262.931 513.873 314.56C451.418 369.41 424.277 445.802 449.527 515.902C471.573 577.087 530.342 620.177 624.53 649.013C693.651 670.176 720.678 691.903 721.395 734.203C722.064 771.678 692.297 801.803 644.017 815.792C573.766 836.151 485.883 820.928 414.056 775.033L388.718 758.838L358.749 810.129L328.779 861.419L354.253 878.343C424.235 924.922 523.718 950.893 616.844 948.564C722.176 945.928 805.076 917.274 856.842 867.49C902.49 823.572 922.615 771.471 918.207 706.109C914.563 652.107 893.354 607.742 852.886 571.059C817.885 539.212 776.668 517.421 676.311 484.246C629.022 468.495 598.192 452.178 581.958 435.651C553.665 406.805 559.534 364.053 595.762 334.333C639.942 298.041 720.979 291.051 796.455 316.47C818.025 323.737 840.708 334.274 857.209 343.282C873.711 352.29 887.886 359.653 888.718 359.653C889.55 359.653 903.395 335.832 919.483 306.719L948.734 253.785L919.659 239.135C879.646 218.83 816.873 205.338 737.594 253.208Z" fill="url(#iconAccent)"/>
+  </g>
+
+  <path d="M188 862C356 838 516 827 640 827C764 827 924 839 1092 864" stroke="url(#brushStroke)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M214 1044C372 1019 518 1009 640 1009C764 1009 908 1020 1066 1046" stroke="url(#brushStroke)" stroke-width="16" stroke-linecap="round"/>
+
+  <g aria-label="Scratch and Save">
+    <text
+      x="561"
+      y="980"
+      text-anchor="end"
+      font-family="Avenir Next, Trebuchet MS, Segoe UI, Arial, sans-serif"
+      font-size="142"
+      font-style="italic"
+      font-weight="800"
+      letter-spacing="-3"
+      fill="url(#textFill)"
+      stroke="#07193D"
+      stroke-width="10"
+      paint-order="stroke fill"
+    >
+      Scratch
+    </text>
+    <text
+      x="640"
+      y="980"
+      text-anchor="middle"
+      font-family="Avenir Next, Trebuchet MS, Segoe UI, Arial, sans-serif"
+      font-size="142"
+      font-style="italic"
+      font-weight="800"
+      letter-spacing="-5"
+      fill="url(#ampFill)"
+      stroke="#07193D"
+      stroke-width="10"
+      paint-order="stroke fill"
+    >
+      &amp;
+    </text>
+    <text
+      x="717"
+      y="980"
+      text-anchor="start"
+      font-family="Avenir Next, Trebuchet MS, Segoe UI, Arial, sans-serif"
+      font-size="142"
+      font-style="italic"
+      font-weight="800"
+      letter-spacing="-3"
+      fill="url(#textFill)"
+      stroke="#07193D"
+      stroke-width="10"
+      paint-order="stroke fill"
+    >
+      Save
+    </text>
+  </g>
+</svg>

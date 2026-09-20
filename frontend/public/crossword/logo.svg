@@ -1,0 +1,42 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" rx="64" fill="#061321"/>
+  <rect x="52" y="52" width="1096" height="696" rx="52" fill="url(#bg)"/>
+  <rect x="98" y="142" width="428" height="428" rx="36" fill="#0A1F35" stroke="#6CE2FF" stroke-opacity="0.34" stroke-width="4"/>
+  <g opacity="0.92">
+    <rect x="132" y="176" width="72" height="72" rx="18" fill="#F4E2AE"/>
+    <rect x="216" y="176" width="72" height="72" rx="18" fill="#BFD0E4"/>
+    <rect x="300" y="176" width="72" height="72" rx="18" fill="#BFD0E4"/>
+    <rect x="384" y="176" width="72" height="72" rx="18" fill="#F4E2AE"/>
+    <rect x="132" y="260" width="72" height="72" rx="18" fill="#BFD0E4"/>
+    <rect x="216" y="260" width="72" height="72" rx="18" fill="#0A1522"/>
+    <rect x="300" y="260" width="72" height="72" rx="18" fill="#F4E2AE"/>
+    <rect x="384" y="260" width="72" height="72" rx="18" fill="#BFD0E4"/>
+    <rect x="132" y="344" width="72" height="72" rx="18" fill="#F4E2AE"/>
+    <rect x="216" y="344" width="72" height="72" rx="18" fill="#BFD0E4"/>
+    <rect x="300" y="344" width="72" height="72" rx="18" fill="#0A1522"/>
+    <rect x="384" y="344" width="72" height="72" rx="18" fill="#F4E2AE"/>
+    <rect x="132" y="428" width="72" height="72" rx="18" fill="#BFD0E4"/>
+    <rect x="216" y="428" width="72" height="72" rx="18" fill="#F4E2AE"/>
+    <rect x="300" y="428" width="72" height="72" rx="18" fill="#BFD0E4"/>
+    <rect x="384" y="428" width="72" height="72" rx="18" fill="#F4E2AE"/>
+  </g>
+  <g opacity="0.98">
+    <rect x="650" y="176" width="104" height="104" rx="28" fill="#0E2137" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <rect x="776" y="176" width="104" height="104" rx="28" fill="#0E2137" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <rect x="902" y="176" width="104" height="104" rx="28" fill="#0E2137" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <rect x="650" y="302" width="104" height="104" rx="28" fill="#0E2137" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <rect x="776" y="302" width="104" height="104" rx="28" fill="#F2C566"/>
+    <rect x="902" y="302" width="104" height="104" rx="28" fill="#0E2137" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <rect x="650" y="428" width="104" height="104" rx="28" fill="#0E2137" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <rect x="776" y="428" width="104" height="104" rx="28" fill="#0E2137" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <rect x="902" y="428" width="104" height="104" rx="28" fill="#0E2137" stroke="#FFFFFF" stroke-opacity="0.12"/>
+  </g>
+  <text x="598" y="622" fill="#F8FBFF" font-family="Georgia, 'Times New Roman', serif" font-size="108" font-weight="700" letter-spacing="14">CROSSWORD</text>
+  <text x="603" y="688" fill="#90DFFF" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="700" letter-spacing="10">PREMIUM LETTER DRAW</text>
+  <defs>
+    <linearGradient id="bg" x1="94" y1="88" x2="1108" y2="712" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#13335A"/>
+      <stop offset="1" stop-color="#07121E"/>
+    </linearGradient>
+  </defs>
+</svg>

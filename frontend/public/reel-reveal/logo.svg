@@ -1,0 +1,59 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGlow" x1="600" y1="0" x2="600" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3F0A6A"/>
+      <stop offset="1" stop-color="#140023"/>
+    </linearGradient>
+    <radialGradient id="burst" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 190) rotate(90) scale(220 480)">
+      <stop stop-color="#FF57FF" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#FF57FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF5AF"/>
+      <stop offset="0.45" stop-color="#FFD451"/>
+      <stop offset="1" stop-color="#B96D08"/>
+    </linearGradient>
+    <linearGradient id="silverFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.5" stop-color="#C8D0E6"/>
+      <stop offset="1" stop-color="#7B849D"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="16" stdDeviation="14" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="200%">
+      <feDropShadow dx="0" dy="0" stdDeviation="16" flood-color="#FF41E1" flood-opacity="0.75"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="520" rx="44" fill="url(#bgGlow)"/>
+  <rect width="1200" height="520" rx="44" fill="url(#burst)"/>
+  <g opacity="0.9">
+    <path d="M102 302C232 232 370 190 600 176C828 190 968 232 1098 302" stroke="#FFB31D" stroke-width="10" stroke-linecap="round"/>
+    <path d="M108 316C242 244 384 202 600 188C816 202 958 244 1092 316" stroke="#FF4BE3" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="124" y="120" width="952" height="226" rx="44" fill="#140419" stroke="#FFAA1A" stroke-width="8"/>
+    <rect x="148" y="146" width="904" height="174" rx="34" fill="#0B0411" stroke="#5A0C82" stroke-width="6"/>
+  </g>
+  <g filter="url(#glow)">
+    <text x="165" y="257" fill="url(#goldFill)" font-size="156" font-family="Georgia, Times New Roman, serif" font-weight="800" letter-spacing="8">REEL</text>
+    <text x="244" y="400" fill="url(#silverFill)" font-size="154" font-family="Georgia, Times New Roman, serif" font-weight="800" letter-spacing="6">REVEAL</text>
+  </g>
+  <g transform="translate(767 132)">
+    <rect x="0" y="0" width="228" height="132" rx="28" fill="#EEE8DE" stroke="#A96B0E" stroke-width="8"/>
+    <line x1="76" y1="0" x2="76" y2="132" stroke="#A96B0E" stroke-width="6"/>
+    <line x1="152" y1="0" x2="152" y2="132" stroke="#A96B0E" stroke-width="6"/>
+    <text x="20" y="82" fill="#E3202B" font-size="74" font-family="Georgia, Times New Roman, serif" font-weight="800">7</text>
+    <text x="94" y="82" fill="#E3202B" font-size="74" font-family="Georgia, Times New Roman, serif" font-weight="800">7</text>
+    <text x="168" y="77" fill="#151515" font-size="34" font-family="Arial, sans-serif" font-weight="700">BAR</text>
+    <text x="174" y="113" fill="#E3202B" font-size="42" font-family="Arial, sans-serif">🍒</text>
+  </g>
+  <g transform="translate(1030 146)">
+    <rect x="0" y="18" width="28" height="138" rx="14" fill="#C18410"/>
+    <circle cx="16" cy="18" r="18" fill="#FF4657" stroke="#FFD2D8" stroke-width="6"/>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="M302 430H898L870 464H330L302 430Z" fill="#140419" stroke="#FFAA1A" stroke-width="5"/>
+    <text x="346" y="458" fill="#FFD95A" font-size="40" font-family="Arial, sans-serif" font-weight="800" letter-spacing="3">SCRATCH TO REVEAL. SPIN TO WIN!</text>
+  </g>
+</svg>

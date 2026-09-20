@@ -1,0 +1,23 @@
+Drop The Big Score ticket art into this folder structure:
+
+- `logo.png`
+- `crew/the-ghost.png`
+- `crew/the-hacker.png`
+- `crew/the-wheelman.png`
+- `crew/the-inside-man.png`
+- `crew/the-safecracker.png`
+- `tools/laser-spoofer.png`
+- `tools/blackout-device.png`
+- `tools/emp-charge.png`
+- `tools/diamond-decoder.png`
+- `tools/gold-key.png`
+- `entrances/vip-lounge.png`
+- `entrances/rooftop-break-in.png`
+- `entrances/underground-tunnel.png`
+- `entrances/security-room.png`
+- `entrances/high-roller-suite.png`
+- `getaways/helicopter.png`
+- `getaways/armored-vehicle.png`
+- `getaways/speedboat.png`
+- `getaways/railway.png`
+- `getaways/hot-pursuit.png`

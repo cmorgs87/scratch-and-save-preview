@@ -1,0 +1,68 @@
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id               String        @id @default(uuid())
+  email            String        @unique
+  passwordHash     String
+  scratchCoin      Int           @default(0)
+  lifetimePointsEarned Int       @default(0)
+  createdAt        DateTime      @default(now())
+  lastDailyClaimAt DateTime?
+  failedLoginCount Int           @default(0)
+  lockUntil        DateTime?
+  ledger           LedgerEntry[]
+  gamePlays        GamePlay[]
+  crosswordSessions CrosswordTicketSession[]
+}
+
+model AppConfig {
+  key       String   @id
+  value     String
+  updatedAt DateTime @updatedAt
+}
+
+model LedgerEntry {
+  id        String   @id @default(cuid())
+  userId    String
+  kind      String
+  delta     Int
+  balance   Int
+  metaJson  String?
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id])
+}
+
+model CrosswordTicketSession {
+  id           String   @id @default(cuid())
+  userId       String
+  ticketId     String
+  cost         Int
+  rewardAmount Int
+  claimedAt    DateTime?
+  createdAt    DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id])
+}
+
+model GamePlay {
+  id          String   @id @default(cuid())
+  userId      String
+  gameId      String
+  prizeAmount Int
+  outcomeData String
+  settled     Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  settledAt   DateTime?
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@index([userId, gameId, settled])
+}
